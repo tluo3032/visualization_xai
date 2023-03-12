@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 import XAInavbar from "@/components/Navbar";
 import Head from "next/head";
-import Sidebar  from "@/components/Sidebar";
+import Sidebar  from "../components/Sidebar";
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
                   <XAInavbar>
                   </XAInavbar>
               </div>
-              <div className={styles.sidebar}>
+              <div>
                   <Sidebar>
                   </Sidebar>
               </div>

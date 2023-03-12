@@ -1,0 +1,49 @@
+.sidebar {
+    height: 90vh;
+    width: 35vh;
+    background-color: rgba(255, 247, 210, 0.54);
+    margin: 0;
+    overflow: scroll;
+}
+
+.picture {
+    width: 90px;
+    height: 90px;
+    border-radius: 15%;
+}
+
+.title {
+    font-family: inter, serif;
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+    width: 150px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.infoSinger {
+    font-family: Courier, serif;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.infoOther {
+    font-family: Courier, serif;
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.vertical {
+    vertical-align: middle;
+}
