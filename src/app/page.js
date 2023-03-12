@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
-import XAInavbar from "@/app/Navbar";
+import XAInavbar from "@/components/Navbar";
 import Head from "next/head";
+import Sidebar  from "@/components/Sidebar";
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -15,6 +16,10 @@ export default function Home() {
               <div className={styles.main}>
                   <XAInavbar>
                   </XAInavbar>
+              </div>
+              <div className={styles.sidebar}>
+                  <Sidebar>
+                  </Sidebar>
               </div>
 
               <footer className={styles.footer}>
