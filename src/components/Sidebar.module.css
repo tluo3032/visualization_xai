@@ -1,8 +1,7 @@
 .sidebar {
-    height: 90vh;
+    height: 80vh;
     width: 35vh;
     background-color: rgba(255, 247, 210, 0.54);
-    margin: 0;
     overflow: scroll;
 }
 
@@ -16,7 +15,6 @@
     font-family: inter, serif;
     font-weight: bold;
     font-size: 15px;
-    float: left;
     width: 150px;
     margin-left: 5px;
     margin-bottom: 20px;
@@ -38,10 +36,12 @@
 
 .container {
     display: flex;
+    width: 210px;
     align-items: center;
     justify-content: center;
     margin-left: 0;
     margin-top: 20px;
+    background-color: #eaeaea;
 }
 
 .vertical {
