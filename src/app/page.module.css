@@ -15,3 +15,11 @@
   align-items: center;
   bottom: 0;
 }
+
+.sidebar{
+  height: 100%;
+  width: 20%;
+  backgound-color: #be8f1f;
+  margin: 0;
+  padding: 0;
+}
