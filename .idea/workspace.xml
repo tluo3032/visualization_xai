@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/WaffleData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SidebarData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SidebarData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,10 @@
       <updated>1678638773484</updated>
       <workItem from="1678638774616" duration="335000" />
       <workItem from="1678702552699" duration="368000" />
+      <workItem from="1678702977213" duration="79000" />
+      <workItem from="1678703137752" duration="152000" />
+      <workItem from="1678706635045" duration="90000" />
+      <workItem from="1678706840878" duration="7000" />
     </task>
     <servers />
   </component>

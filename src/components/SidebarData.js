@@ -1,7 +1,7 @@
 import React from "react";
 
 export const SidebarData = [
-    {name: "Old Town Road", artist: "Billy Ray Cyrus", genre: "Country rap", length: "2:37", image: "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Old_Town_Road_Remix_cover.jpg/220px-Old_Town_Road_Remix_cover.jpg"},
+    {name: "Old Town Road", artist: "Lil Nas X", genre: "Country rap", length: "2:37", image: "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Old_Town_Road_Remix_cover.jpg/220px-Old_Town_Road_Remix_cover.jpg"},
     {name: "bad guy", artist: "Billie Eilish",  genre: "Electropop", length: "3:13", image: "https://i1.sndcdn.com/artworks-000584234423-y1fg41-t500x500.jpg"},
     {name: "Señorita", artist: "Shawn Mendes", genre: "Latin Pop", length: "3:11", image: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Shawn_Mendes_and_Camila_Cabello_-_Se%C3%B1orita.png"},
     {name: "7 rings", artist: "Ariana Grande", genre: "Trap Pop", length: "2:58", image: "https://upload.wikimedia.org/wikipedia/en/b/b7/Ariana_Grande_-_7_rings.png"},
