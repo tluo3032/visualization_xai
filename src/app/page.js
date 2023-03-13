@@ -13,13 +13,11 @@ export default function Home() {
               <title>XAI visualization</title>
           </Head>
           <div>
-              <div className={styles.main}>
-                  <XAInavbar>
-                  </XAInavbar>
+              <div>
+                  <XAInavbar/>
               </div>
               <div>
-                  <Sidebar>
-                  </Sidebar>
+                  <Sidebar/>
               </div>
               <footer className={styles.footer}>
                   <p>2023 XAI for Rank Visualization</p>

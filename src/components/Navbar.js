@@ -1,63 +1,22 @@
 'use client';
-import { Navbar, Dropdown, Button, Link, Text, Card, Radio } from "@nextui-org/react";
 import React from "react";
+import styles from './Navbar.css'
 
 const XAInavbar=()=>{
 
     return(
-        <Navbar isBordered variant='sticky'
-                isCompact="true"
-                css={{$$navbarBackgroundColor: "#F4F7FF",
-                    $$navbarBlurBackgroundColor: "#F4F7FF"}}>
-            <Navbar.Content css={{backgroundColor:'#F4F7FF'}}>
-                <Dropdown>
-                    <Navbar.Item>
-                        <Dropdown.Button
-                            auto
-                            light
-                            css={{
-                                px: 0,
-                                dflex: "center",
-                            }}
-                            ripple={false}
-                        >
-                            Visualization Selection
-                        </Dropdown.Button>
-                    </Navbar.Item>
-                    <Dropdown.Menu
-                        aria-label="Visualization Selection"
-                        css={{
-                            $$dropdownMenuWidth: "250px",
-                            $$dropdownItemHeight: "20px",
-                            backgroundColor:"#F4F7FF",
-                            "& .nextui-dropdown-item": {
-                                py: "$4",
-                                // dropdown item title
-                                "& .nextui-dropdown-item-content": {
-                                    w: "100%",
-                                },
-                            },
-                        }}
-                    >
-                        <Dropdown.Item key="Visualization 1">
-                            Visualization 1
-                        </Dropdown.Item>
-                        <Dropdown.Item key="Visualization 2">
-                            Visualization 2
-                        </Dropdown.Item>
-                        <Dropdown.Item key="Visualization 3">
-                            Visualization 3
-                        </Dropdown.Item>
-                        <Dropdown.Item key="Visualization 4">
-                            Visualization 4
-                        </Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
-            </Navbar.Content>
-            <Navbar.Content>
-                Visualization 1
-            </Navbar.Content>
-        </Navbar>
+       <div class="navbar">
+           <div class="dropdown">
+               <button class="dropbtn">Visualization Selection</button>
+               <div class="dropdown-content">
+                   <a href="/visual1">Visualization 1</a>
+                   <a href="/visual2">Visualization 2</a>
+                   <a href="/visual3">Visualization 3</a>
+                   <a href="/visual4">Visualization 4</a>
+               </div>
+           </div>
+           <a>Visualization 1</a>
+       </div>
     )
 }
 
