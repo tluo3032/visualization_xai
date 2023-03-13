@@ -21,7 +21,6 @@ export default function Home() {
                   <Sidebar>
                   </Sidebar>
               </div>
-
               <footer className={styles.footer}>
                   <p>2023 XAI for Rank Visualization</p>
               </footer>
