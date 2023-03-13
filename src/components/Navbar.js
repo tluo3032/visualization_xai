@@ -2,7 +2,6 @@
 import { Navbar, Dropdown, Button, Link, Text, Card, Radio } from "@nextui-org/react";
 import React from "react";
 
-
 const XAInavbar=()=>{
 
     return(
@@ -19,7 +18,6 @@ const XAInavbar=()=>{
                             css={{
                                 px: 0,
                                 dflex: "center",
-                                svg: { pe: "none" },
                             }}
                             ripple={false}
                         >
@@ -34,15 +32,9 @@ const XAInavbar=()=>{
                             backgroundColor:"#F4F7FF",
                             "& .nextui-dropdown-item": {
                                 py: "$4",
-                                // dropdown item left icon
-                                svg: {
-                                    color: "$secondary",
-                                    mr: "$4",
-                                },
                                 // dropdown item title
                                 "& .nextui-dropdown-item-content": {
                                     w: "100%",
-                                    fontWeight: "$semibold",
                                 },
                             },
                         }}
