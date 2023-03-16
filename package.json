@@ -10,11 +10,17 @@
   },
   "dependencies": {
     "@nextui-org/react": "^1.0.0-beta.12",
+    "@nivo/bar": "^0.80.0",
+    "@nivo/core": "^0.80.0",
+    "@nivo/waffle": "^0.80.0",
     "all": "^0.0.0",
+    "d3": "^7.8.2",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
+    "gsap": "^3.11.4",
     "next": "13.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-native": "^0.71.4"
   }
 }

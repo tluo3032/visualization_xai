@@ -8,7 +8,7 @@ function Sidebar() {
             <ol>
                 {SidebarData.map((val, key) => {
                     // Need to finish onClick function
-                    return <li key={key} class={styles.container}>
+                    return <li key={key} className={styles.container}>
                         <img src={val.image} className={styles.picture} alt="image"></img>
                         <div className={styles.vertical}>
                             <div className={styles.title}>{val.name}</div>

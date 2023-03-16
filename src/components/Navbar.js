@@ -5,10 +5,10 @@ import styles from './Navbar.css'
 const XAInavbar=()=>{
 
     return(
-       <div class="navbar">
-           <div class="dropdown">
-               <button class="dropbtn">Visualization Selection</button>
-               <div class="dropdown-content">
+       <div className="navbar">
+           <div className="dropdown">
+               <button className="dropbtn">Visualization Selection</button>
+               <div className="dropdown-content">
                    <a href="/visual1">Visualization 1</a>
                    <a href="/visual2">Visualization 2</a>
                    <a href="/visual3">Visualization 3</a>
