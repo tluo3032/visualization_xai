@@ -3,7 +3,7 @@ import styles from './page.module.css'
 import XAInavbar from "@/components/Navbar";
 import Head from "next/head";
 import Sidebar  from "../components/Sidebar";
-import WaffleChartsSong1 from "@/components/WaffleChartsSong1";
+import WaffleChartSong1 from "../components/WaffleChartSong1"
 const inter = Inter({ subsets: ['latin'] })
 
 
@@ -19,6 +19,9 @@ export default function Home() {
               </div>
               <div>
                   <Sidebar/>
+              </div>
+              <div>
+                  <WaffleChartSong1/>
               </div>
               <footer className={styles.footer}>
                   <p>2023 XAI for Rank Visualization</p>
