@@ -34,8 +34,10 @@ export default function WaffleChartSong1() {
                     flexDirection: "column",
                     justifyContent: "center",
                     alignItems: "center",
+                    margin:"0",
+                    padding:"0",
                     height: "100%",
-                    width: "90vw"
+                    width: "150px"
                 }}
             >
                 <figure className="waffle1"></figure>

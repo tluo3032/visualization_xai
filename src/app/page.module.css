@@ -15,16 +15,18 @@
   display: grid;
   grid-template-columns: 30% 30% 30%;
   grid-template-rows: 23% 23% 23% 23%;
-
   padding:30px;
   grid-gap:5px 30px;
 }
 .wafflebox>div{
+  display: flex;
   padding: 5px;
   align-items: center;
   text-align: center;
   border-style: solid;
   border-color: darkgoldenrod;
+  flex-direction: column;
+  align-content: center;
 }
 
 .footer{
