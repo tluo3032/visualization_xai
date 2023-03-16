@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WaffleCharts.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WaffleChartsSong1.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +42,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xai-web\visualization_xai\public" />
@@ -76,6 +75,7 @@
       <workItem from="1678706635045" duration="90000" />
       <workItem from="1678706840878" duration="7000" />
       <workItem from="1678733055416" duration="1949000" />
+      <workItem from="1678983772769" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="Update with new navbar">
       <created>1678735099937</created>

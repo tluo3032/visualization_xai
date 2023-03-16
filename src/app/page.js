@@ -17,27 +17,9 @@ export default function Home() {
               <div>
                   <XAInavbar/>
               </div>
-              <div className={styles.waffleContainer}>
                   <div>
                       <Sidebar/>
                   </div>
-                  <div className={styles.wafflebox}>
-                      <div>1</div>
-                      <div>2</div>
-                      <div>3</div>
-                      <div>4</div>
-                      <div>5</div>
-                      <div>6</div>
-                      <div>7</div>
-                      <div>8</div>
-                      <div>9</div>
-                      <div>10</div>
-                  </div>
-                  <div>
-                      <Image src={chart}
-                             width={260}/>
-                  </div>
-              </div>
               <div>
                   <WaffleChartSong1/>
               </div>
