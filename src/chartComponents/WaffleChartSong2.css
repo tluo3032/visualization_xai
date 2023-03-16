@@ -1,11 +1,10 @@
-
-.waffle {
+.waffle2 {
     display: flex;
     flex-wrap: wrap;
     width: 140px;
 }
 
-.square {
+.square2 {
     width: 10px;
     height: 10px;
     margin: 2px;

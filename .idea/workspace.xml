@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WaffleChartSong1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WaffleChartSong1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,8 +50,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "vue.rearranger.settings.migration": "true"
   }
@@ -56,6 +64,7 @@
       <recent name="D:\xai-web\visualization_xai\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chartComponents" />
       <recent name="D:\xai-web\visualization_xai\src\components" />
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
@@ -76,6 +85,7 @@
       <workItem from="1678706840878" duration="7000" />
       <workItem from="1678733055416" duration="1949000" />
       <workItem from="1678983772769" duration="83000" />
+      <workItem from="1678984252903" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="Update with new navbar">
       <created>1678735099937</created>
