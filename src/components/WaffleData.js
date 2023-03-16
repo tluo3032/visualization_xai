@@ -12,3 +12,5 @@ const WaffleData = [
     {name: "Shallow", spchDark: 1, spchLight: 19, acouDark: 13, acouLight: 7, valDark: 6, valLight: 14},
     {name: "Lose You To Love Me", spchDark: 1, spchLight: 19, acouDark: 19, acouLight: 1, valDark: 1, valLight: 19},
 ]
+
+export default WaffleData;
