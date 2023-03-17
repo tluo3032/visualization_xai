@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Update with new navbar">
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong10.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong9.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/label.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -48,15 +54,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chartComponents" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/duanranjing/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/223.8836.50/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xai-web\visualization_xai\src\chartComponents" />
@@ -85,6 +95,7 @@
       <workItem from="1678800971911" duration="3485000" />
       <workItem from="1678808172918" duration="34000" />
       <workItem from="1678963165931" duration="4467000" />
+      <workItem from="1679040697288" duration="1075000" />
     </task>
     <task id="LOCAL-00001" summary="Update with new navbar">
       <created>1678735099937</created>
