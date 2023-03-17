@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Update with new navbar">
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong10.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong9.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/label.jpg" afterDir="false" />
+    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Merge Wafflechart and layout changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +40,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/duanranjing/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/223.8836.50/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xai-web\visualization_xai\src\chartComponents" />

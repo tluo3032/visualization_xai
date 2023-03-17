@@ -3,12 +3,22 @@
     width: 100%;
     background-color: rgba(255, 247, 210, 0.54);
     overflow: scroll;
+    overflow-x:hidden;
 }
 
 .sidebar::-webkit-scrollbar{
-    display: none;
+    overflow-x:hidden;
+    width: 10px;
 }
-
+.sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 .picture {
     width: 50px;
     height: 50px;
