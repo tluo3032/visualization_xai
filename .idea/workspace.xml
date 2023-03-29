@@ -5,44 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Merge Wafflechart and layout changes">
-      <change afterPath="$PROJECT_DIR$/src/SongData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Visualization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/visualization2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong10.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong10.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SidebarData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WaffleData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageStyles/visualization1.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/visualization.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageStyles/visualization3.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/visualization1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/visualization1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/visualization3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/visualization3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/visualization3ByAcou.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/visualization3BySpch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/visualization3ByVal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Visualization.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Visualization.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,20 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/duanranjing/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/223.8836.50/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/duanranjing/GitHub/Master-Project/visualization_xai/src/pages",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/duanranjing/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/223.8836.50/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="D:\xai-web\visualization_xai\src\chartComponents" />
       <recent name="D:\xai-web\visualization_xai\public" />
     </key>
@@ -121,6 +92,7 @@
       <workItem from="1678963165931" duration="4467000" />
       <workItem from="1679040697288" duration="1075000" />
       <workItem from="1680076962468" duration="17291000" />
+      <workItem from="1680096407575" duration="3120000" />
     </task>
     <task id="LOCAL-00001" summary="Update with new navbar">
       <created>1678735099937</created>

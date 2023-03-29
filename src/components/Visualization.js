@@ -8,10 +8,11 @@ import Image from "next/image";
 import chart from "@/components/label.png";
 import {useRouter} from "next/router";
 import Link from "next/link";
+import {useState} from "react";
 
 export default function Visualization({showSidebar, sorting, hover}) {
     const router = useRouter();
-
+    const [hoverBlock, setHoverBlock] = useState(null);
     let sortedSongs = songs;
     if (['acoustiveness', 'valence', 'speechness'].includes(router.query.order)) {
         sortedSongs = [...sortedSongs].sort((a, b) =>
@@ -33,14 +34,16 @@ export default function Visualization({showSidebar, sorting, hover}) {
                         {sortedSongs.map(song => (
                             <div key={song.name}>
                                 <div>{song.name}</div>
-                                <WaffleChartSong sorting={sorting} song={song} hover={hover}/>
+                                <WaffleChartSong sorting={sorting} song={song} hoverBlock={hoverBlock}
+                                                 setHoverBlock={hover ? setHoverBlock : () => {}}/>
                             </div>
                         ))}
                     </div>
                     <div>
                         <Image src={chart}
                                width={280}/>
-                        {router.query.order ? <Link href={{query: null}} className={styles.backButton}>Back</Link> : null}
+                        {router.query.order ?
+                            <Link href={{query: null}} className={styles.backButton}>Back</Link> : null}
                     </div>
 
                 </div>
