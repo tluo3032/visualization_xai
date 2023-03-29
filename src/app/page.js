@@ -4,7 +4,7 @@ import styles from './page.module.css'
 import XAInavbar from "@/components/Navbar";
 import Head from "next/head";
 import Sidebar  from "../components/Sidebar";
-import chart from "../components/label.jpg";
+import chart from "../components/label.png";
 import WaffleChartSong1 from "../chartComponents/WaffleChartSong1"
 import WaffleChartSong2 from "@/chartComponents/WaffleChartSong2";
 import WaffleChartSong3 from "@/chartComponents/WaffleChartSong3";
@@ -77,7 +77,7 @@ export default function Home() {
                   </div>
                   <div>
                       <Image src={chart}
-                             width={250}/>
+                             width={280}/>
                   </div>
 
           </div>
