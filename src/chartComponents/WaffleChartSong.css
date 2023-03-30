@@ -1,0 +1,26 @@
+.waffle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    margin:0;
+    padding:0;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    display: block;
+}
+
+.display {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 150px;
+}

@@ -1,9 +1,10 @@
 .sidebar {
     height: 80vh;
-    width: 100%;
+    width: 20%;
     background-color: rgba(255, 247, 210, 0.54);
     overflow: scroll;
     overflow-x:hidden;
+    flex-shrink: 0;
 }
 
 .sidebar::-webkit-scrollbar{

@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Sidebar.module.css";
-import {SidebarData} from "@/components/SidebarData";
+import {songs} from "@/SongData";
 
 function Sidebar() {
     return (
         <div className={styles.sidebar}>
             <ol>
-                {SidebarData.map((val, key) => {
+                {songs.map((val, key) => {
                     // Need to finish onClick function
                     return <li key={key} className={styles.container}>
                         <img src={val.image} className={styles.picture} alt="image"></img>
