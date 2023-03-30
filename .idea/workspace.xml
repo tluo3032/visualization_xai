@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Merge Wafflechart and layout changes">
-      <change afterPath="$PROJECT_DIR$/src/pages/visualization2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/WaffleChartSong.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Visualization.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Visualization.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -48,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/duanranjing/GitHub/Master-Project/visualization_xai/src/pages",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -93,6 +90,7 @@
       <workItem from="1679040697288" duration="1075000" />
       <workItem from="1680076962468" duration="17291000" />
       <workItem from="1680096407575" duration="3120000" />
+      <workItem from="1680177843891" duration="4144000" />
     </task>
     <task id="LOCAL-00001" summary="Update with new navbar">
       <created>1678735099937</created>

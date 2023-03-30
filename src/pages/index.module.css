@@ -1,0 +1,89 @@
+.background {
+    background-color: #FBFBFF;
+    display: block;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.h1title {
+    margin-top: 0;
+    margin-left: 200px;
+    height: 100%;
+    position: relative;
+    font-weight: 700;
+}
+
+.picture {
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+}
+
+.title {
+    font-family: inter, serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.infoSinger {
+    font-family: Courier, serif;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.infoOther {
+    font-family: Courier, serif;
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    width: 350px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #F3F3F3;
+}
+
+.vertical {
+    vertical-align: middle;
+}
+
+.list {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin-left: 180px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.nextButton {
+    background-color: #00C525;
+    border-radius: 10px;
+    width: 280px;
+    height: 50px;
+    color: black;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
