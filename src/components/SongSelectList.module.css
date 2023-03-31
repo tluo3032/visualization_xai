@@ -1,0 +1,93 @@
+.main{
+    align-items: center;
+    text-align: center;
+}
+.listContainer{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255, 247, 210, 0.54);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.listItem{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+.Image{
+    padding: 5%;
+    width: 20%;
+    height: auto;
+}
+.songList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.songCard{
+    margin: 5%;
+    padding: 2%;
+    width: 25%;
+    background-color: #eaeaea;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.songWaffleCard{
+    margin: 5%;
+    padding: 2%;
+    width: 25%;
+    background-color: white;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.songImage{
+    width: 80%;
+    height: auto;
+}
+.selectButton{
+    max-height: 50px;
+    margin: 10px;
+    font-size: larger;
+    background-color: #F4F7FF;
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.selectButton:hover{
+    background-color: rgb(238, 240, 248);
+}
+.switchButton{
+    margin: 10px;
+    font-size: larger;
+    background-color: #F4F7FF;
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.switchButton:hover{
+    background-color: rgb(238, 240, 248);
+}
+.annotation{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.dropdownbtn{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}

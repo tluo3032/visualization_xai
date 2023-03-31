@@ -52,3 +52,6 @@
   justify-content: right;
   display: block;
 }
+.body{
+  min-height: 90vh;
+}
