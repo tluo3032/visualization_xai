@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
       <div className={styles.background}>
-        <h1 className={styles.h1title}>Top 10 Hits of 2019</h1>
+        <h1 className={styles.h1title}>Top 10 Hits of 2019 🔥</h1>
         <ol className={styles.list}>
           {songs.map((val, key) => {
             // Need to finish onClick function
@@ -23,7 +23,7 @@ export default function Home() {
                 </div>
             </li>;
           })}
-            <Link href={"/visualization1"} className={styles.nextButton}>Let's Explore!</Link>
+            <Link href={"/visualization1"} className={styles.nextButton}>Let Us Explore!</Link>
         </ol>
       </div>
   );
