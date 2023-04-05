@@ -28,6 +28,9 @@ export default function Visualization({showSidebar, sorting, hover}) {
                 <div>
                     <XAInavbar/>
                 </div>
+                <div>
+                    {hover ? <h1 className={styles.title}>Try hover on different block</h1> : sorting ?  <h1 className={styles.title}>Please click on block to sort</h1> : null}
+                </div>
                 <div className={styles.waffleContainer}>
                     {showSidebar ? <Sidebar/> : null}
                     <div className={styles.wafflebox}>
@@ -41,7 +44,7 @@ export default function Visualization({showSidebar, sorting, hover}) {
                     </div>
                     <div>
                         <Image src={chart}
-                               width={280}/>
+                               width={380}/>
                         {router.query.order ?
                             <Link href={{query: null}} className={styles.backButton}>Back</Link> : null}
                     </div>

@@ -55,3 +55,10 @@
 .body{
   min-height: 90vh;
 }
+
+.title {
+  font-size: 20px;
+  margin-left: 120px;
+  font-weight: bold;
+  font-style: italic;
+}
