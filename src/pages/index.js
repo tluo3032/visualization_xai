@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
 import styles from "@/pages/index.module.css";
-import {songs} from "@/SongData";
+import {songs} from "@/CountryData";
 import React from "react";
 import Link from "next/link";
 

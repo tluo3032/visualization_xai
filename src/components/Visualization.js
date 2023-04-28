@@ -1,8 +1,8 @@
 import Head from "next/head";
 import XAInavbar from "@/components/Navbar";
 import styles from "@/components/visualization.module.css";
-import {songs} from "@/SongData";
-import WaffleChartSong from "@/chartComponents/WaffleChartSong";
+import {songs} from "@/CountryData";
+import BarChartSong from "@/chartComponents/BarChartSong";
 import Image from "next/image";
 import chart from "@/components/label.png";
 import {useRouter} from "next/router";
@@ -35,8 +35,8 @@ export default function Visualization({sorting, hover}) {
                         {sortedSongs.map(song => (
                             <div key={song.name}>
                                 <div>{song.name}</div>
-                                <WaffleChartSong sorting={sorting} song={song} hoverBlock={hoverBlock}
-                                                 setHoverBlock={hover ? setHoverBlock : () => {}}/>
+                                <BarChartSong sorting={sorting} song={song} hoverBlock={hoverBlock}
+                                              setHoverBlock={hover ? setHoverBlock : () => {}}/>
                             </div>
                         ))}
                     </div>

@@ -1,8 +1,8 @@
-import styles from "./WaffleChartSong.css";
+import styles from "./BarChartSong.css";
 import Link from "next/link";
 import {useState} from "react";
 
-export default function WaffleChartSong({sorting, song, hoverBlock, setHoverBlock}) {
+export default function BarChartSong({sorting, song, hoverBlock, setHoverBlock}) {
     const Square = sorting ? Link : "div";
 
     return (

@@ -1,4 +1,4 @@
-import {songs} from "@/SongData";
+import {songs} from "@/CountryData";
 import React, {useState} from "react";
 import styles from "./SongSelectList.module.css";
 import WaffleComparison from "@/pages/WaffleComparison";

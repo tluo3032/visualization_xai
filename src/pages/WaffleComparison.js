@@ -1,6 +1,6 @@
 import Visualization4 from "@/pages/visualization4";
-import {songs} from "@/SongData";
-import WaffleChartSong from "@/chartComponents/WaffleChartSong";
+import {songs} from "@/CountryData";
+import BarChartSong from "@/chartComponents/BarChartSong";
 import {useState} from "react";
 import styles from "@/components/SongSelectList.module.css";
 
@@ -16,17 +16,17 @@ export default function WaffleComparison(props){
         <div className={styles.songList}>
             <div className={styles.songWaffleCard}>
                 {props.song1.name}
-                <WaffleChartSong sorting={false}
-                                 hoverBlock={hoverBlock}
-                                 setHoverBlock={() => {}}
-                                 song={props.song1}/>
+                <BarChartSong sorting={false}
+                              hoverBlock={hoverBlock}
+                              setHoverBlock={() => {}}
+                              song={props.song1}/>
             </div>
             <div className={styles.songWaffleCard}>
                 {props.song2.name}
-                <WaffleChartSong sorting={false}
-                                 hoverBlock={hoverBlock}
-                                 setHoverBlock={() => {}}
-                                 song={props.song2}/>
+                <BarChartSong sorting={false}
+                              hoverBlock={hoverBlock}
+                              setHoverBlock={() => {}}
+                              song={props.song2}/>
             </div>
         </div>
     )
