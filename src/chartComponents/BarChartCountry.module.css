@@ -1,0 +1,10 @@
+.barChart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 200px;
+    gap: 4px;
+    margin: 4px;
+    padding: 0px;
+}

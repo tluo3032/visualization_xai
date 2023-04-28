@@ -1,5 +1,5 @@
 import Visualization4 from "@/pages/visualization4";
-import {songs} from "@/CountryData";
+import {countries} from "@/CountryData";
 
 export default function ButterflyComparison(song1,song2){
     return(

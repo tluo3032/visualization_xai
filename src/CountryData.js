@@ -1,4 +1,4 @@
-export const songs = [
+export const countries = [
     {
         "country": "#1 Switzerland",
         "healthy": 120,

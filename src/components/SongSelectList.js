@@ -1,4 +1,4 @@
-import {songs} from "@/CountryData";
+import {countries} from "@/CountryData";
 import React, {useState} from "react";
 import styles from "./SongSelectList.module.css";
 import WaffleComparison from "@/pages/WaffleComparison";
@@ -89,9 +89,9 @@ export default function SongSelectList(){
     return(
         <div className={styles.main}>
             <div className={styles.listContainer}>
-                {songs.map((song)=>
-                    <div key={song.name} className={styles.listItem}>
-                        <img src={song.image} className={styles.Image}/>
+                {countries.map((song)=>
+                    <div key={country.name} className={styles.listItem}>
+                        <img src={country.image} className={styles.Image}/>
                         {song.name.substring(3)}
                         <button disabled={selectedSongs.includes(song) || selectedSongs.length===2}
                                 onClick={()=>handleSelectedSongs(song)}

@@ -1,8 +1,8 @@
 import Head from "next/head";
 import XAInavbar from "@/components/Navbar";
 import styles from "@/components/visualization.module.css";
-import {songs} from "@/CountryData";
-import BarChartSong from "@/chartComponents/BarChartSong";
+import {countries} from "@/CountryData";
+import BarChartCountry from "@/chartComponents/BarChartCountry";
 import Image from "next/image";
 import chart from "@/components/label.png";
 import {useRouter} from "next/router";
@@ -12,9 +12,9 @@ import {useState} from "react";
 export default function Visualization({sorting, hover}) {
     const router = useRouter();
     const [hoverBlock, setHoverBlock] = useState(null);
-    let sortedSongs = songs;
-    if (['acoustiveness', 'valence', 'speechness'].includes(router.query.order)) {
-        sortedSongs = [...sortedSongs].sort((a, b) =>
+    let sortedCountries = countries;
+    if (['healthy', 'freedom', 'gdp', 'generosity', 'corruption', 'social'].includes(router.query.order)) {
+        sortedCountries = [...sortedCountries].sort((a, b) =>
             b[router.query.order] - a[router.query.order]
         );
     }
@@ -28,15 +28,21 @@ export default function Visualization({sorting, hover}) {
                     <XAInavbar/>
                 </div>
                 <div>
-                    {hover ? <h1 className={styles.title}>Try hover on different block</h1> : sorting ?  <h1 className={styles.title}>Please click on block to sort</h1> : null}
+                    {hover
+                        ? <h1 className={styles.title}>Try move the mouse to different bar</h1>
+                        : (sorting && !router.query.order)
+                            ? <h1 className={styles.title}>Please click on a bar to sort</h1>
+                            : (sorting && router.query.order)
+                                ? <h1 className={styles.title}>This is the result sorted by {router.query.order}</h1>
+                                : null}
                 </div>
                 <div className={styles.waffleContainer}>
                     <div className={styles.wafflebox}>
-                        {sortedSongs.map(song => (
-                            <div key={song.name}>
-                                <div>{song.name}</div>
-                                <BarChartSong sorting={sorting} song={song} hoverBlock={hoverBlock}
-                                              setHoverBlock={hover ? setHoverBlock : () => {}}/>
+                        {sortedCountries.map(country => (
+                            <div key={country.country}>
+                                <div>{country.country}</div>
+                                <BarChartCountry sorting={sorting} country={country} hoverBlock={hoverBlock}
+                                                 setHoverBlock={hover ? setHoverBlock : () => {}}/>
                             </div>
                         ))}
                     </div>
