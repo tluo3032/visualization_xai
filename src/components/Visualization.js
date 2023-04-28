@@ -50,7 +50,7 @@ export default function Visualization({sorting, hover}) {
                     </div>
                     <div>
                         <Image src={chart}
-                               width={380}/>
+                               width={250}/>
                     </div>
 
                 </div>
