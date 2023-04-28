@@ -9,18 +9,18 @@
   display: flex;
   align-items: center;
 }
+
 .wafflebox{
   flex-grow: 1;
   display: grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 23% 23% 23% 23%;
-  padding:30px;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 10px;
   gap: 10px 20px;
 }
 
 .wafflebox>div{
   display: flex;
-  padding: 5px;
+  padding: 0px;
   align-items: center;
   text-align: center;
   flex-direction: column;
@@ -29,13 +29,11 @@
 
 .footer{
   display: flex;
-  flex: 1;
   margin-top: 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
   bottom: 0;
-  max-height: 30px;
 }
 
 .backButton {
@@ -52,6 +50,7 @@
   padding: 10px 0;
   justify-content: right;
   display: block;
+  margin-left: 50px;
 }
 .body{
   min-height: 90vh;
@@ -59,7 +58,7 @@
 
 .title {
   font-size: 20px;
-  margin-left: 100px;
+  margin-left: 50px;
   font-weight: bold;
   font-style: italic;
 }

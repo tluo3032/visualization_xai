@@ -36,6 +36,8 @@ export default function Visualization({sorting, hover}) {
                                 ? <h1 className={styles.title}>This is the result sorted by {router.query.order}</h1>
                                 : null}
                 </div>
+                {router.query.order ?
+                    <Link href={{query: null}} className={styles.backButton}>Back</Link> : null}
                 <div className={styles.waffleContainer}>
                     <div className={styles.wafflebox}>
                         {sortedCountries.map(country => (
@@ -49,8 +51,6 @@ export default function Visualization({sorting, hover}) {
                     <div>
                         <Image src={chart}
                                width={380}/>
-                        {router.query.order ?
-                            <Link href={{query: null}} className={styles.backButton}>Back</Link> : null}
                     </div>
 
                 </div>

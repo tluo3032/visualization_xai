@@ -32,20 +32,6 @@
     margin-bottom: 10px;
 }
 
-.infoSinger {
-    font-family: Courier, serif;
-    font-size: 18px;
-    margin-left: 10px;
-    margin-top: 3px;
-}
-
-.infoOther {
-    font-family: Courier, serif;
-    font-size: 10px;
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
 
 .container {
     display: flex;
