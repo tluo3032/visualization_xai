@@ -1,7 +1,6 @@
 import Head from "next/head";
 import XAInavbar from "@/components/Navbar";
 import styles from "@/components/visualization.module.css";
-import Sidebar from "@/components/Sidebar";
 import {songs} from "@/SongData";
 import WaffleChartSong from "@/chartComponents/WaffleChartSong";
 import Image from "next/image";
@@ -10,7 +9,7 @@ import {useRouter} from "next/router";
 import Link from "next/link";
 import {useState} from "react";
 
-export default function Visualization({showSidebar, sorting, hover}) {
+export default function Visualization({sorting, hover}) {
     const router = useRouter();
     const [hoverBlock, setHoverBlock] = useState(null);
     let sortedSongs = songs;
@@ -32,7 +31,6 @@ export default function Visualization({showSidebar, sorting, hover}) {
                     {hover ? <h1 className={styles.title}>Try hover on different block</h1> : sorting ?  <h1 className={styles.title}>Please click on block to sort</h1> : null}
                 </div>
                 <div className={styles.waffleContainer}>
-                    {showSidebar ? <Sidebar/> : null}
                     <div className={styles.wafflebox}>
                         {sortedSongs.map(song => (
                             <div key={song.name}>
