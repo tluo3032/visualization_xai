@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Change display">
+      <change afterPath="$PROJECT_DIR$/src/components/CountrySelectList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CountrySelectList.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Visualization.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Visualization.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/visualization.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/visualization.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountryData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountryData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SongSelectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SongSelectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ButterflyComparision.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButterflyComparision.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WaffleComparison.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WaffleComparison.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/visualization4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/visualization4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +55,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Bar__chart",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/duanranjing/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/231.8109.174/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages" />
@@ -131,7 +126,6 @@
       <workItem from="1680177843891" duration="4247000" />
       <workItem from="1680264879011" duration="204000" />
       <workItem from="1680689937223" duration="1450000" />
-      <workItem from="1682671790803" duration="8973000" />
     </task>
     <task id="LOCAL-00001" summary="Update with new navbar">
       <created>1678735099937</created>

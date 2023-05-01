@@ -1,7 +1,7 @@
 import Head from "next/head";
 import XAInavbar from "@/components/Navbar";
 import styles from "@/components/visualization.module.css";
-import SongSelectList from "@/components/SongSelectList";
+import CountrySelectList from "@/components/CountrySelectList";
 
 
 export default function Visualization4(){
@@ -13,12 +13,8 @@ export default function Visualization4(){
             </Head>
             <div>
                 <div className={styles.body}>
-                    <div>
                         <XAInavbar/>
-                    </div>
-                    <div>
-                        <SongSelectList/>
-                    </div>
+                        <CountrySelectList/>
                 </div>
                 <footer className={styles.footer}>
                     <p>2023 XAI for Rank Visualization</p>

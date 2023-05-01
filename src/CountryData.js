@@ -9,7 +9,7 @@ export const countries = [
         "social": 92
     },
     {
-        "country": "#2 Austrilia",
+        "country": "#2 Australia",
         "healthy": 116,
         "freedom": 142,
         "gdp": 110,
@@ -135,7 +135,7 @@ export const countries = [
         "social": 82
     },
     {
-        "country": "#16 United Kindom",
+        "country": "#16 United Kingdom",
         "healthy": 104,
         "freedom": 116,
         "gdp": 106,

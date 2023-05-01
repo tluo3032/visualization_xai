@@ -11,6 +11,7 @@
 
 .h1title {
     margin-top: 0;
+    margin-left: 200px;
     height: 100%;
     position: relative;
     font-weight: 700;
@@ -32,6 +33,20 @@
     margin-bottom: 10px;
 }
 
+.infoSinger {
+    font-family: Courier, serif;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.infoOther {
+    font-family: Courier, serif;
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 
 .container {
     display: flex;

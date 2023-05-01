@@ -1,9 +1,8 @@
 import {countries} from "@/CountryData";
 import React, {useState} from "react";
 import styles from "./SongSelectList.module.css";
-import WaffleComparison from "@/pages/WaffleComparison";
+import WaffleComparison from "@/components/WaffleComparison";
 import ButterflyChartSong from "@/chartComponents/ButterflyChartSong";
-import notes from "public/notes.PNG";
 import Image from "next/image";
 import { Dropdown } from "@nextui-org/react";
 
@@ -23,7 +22,6 @@ export default function SongSelectList(){
         () => Array.from(selected).join(", ").replaceAll("_", " "),
         [selected]
     );
-
 
     function handleChartSelect(value){
         if(value==='Waffle Chart'){
@@ -76,7 +74,6 @@ export default function SongSelectList(){
                         <WaffleComparison song1={song1} song2={song2}/>
                     </div>
                 }
-
                 {confirmSongs === true && butterflyChart === true &&
                     <div>
                         <ButterflyChartSong/>
@@ -90,8 +87,8 @@ export default function SongSelectList(){
         <div className={styles.main}>
             <div className={styles.listContainer}>
                 {countries.map((song)=>
-                    <div key={country.name} className={styles.listItem}>
-                        <img src={country.image} className={styles.Image}/>
+                    <div key={song.name} className={styles.listItem}>
+                        <img src={song.image} className={styles.Image}/>
                         {song.name.substring(3)}
                         <button disabled={selectedSongs.includes(song) || selectedSongs.length===2}
                                 onClick={()=>handleSelectedSongs(song)}
@@ -144,7 +141,7 @@ export default function SongSelectList(){
                     Choose again
                 </button>
                 {confirmSongs === true && <div>
-                    <Image src={notes} alt="annotation" width={300}></Image>
+                    <Image src="/notes.png" alt="annotation" width={300} height={180}></Image>
                 </div>}
             </div>
         </div>
