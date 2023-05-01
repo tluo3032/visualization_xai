@@ -1,14 +1,11 @@
 import {countries} from "@/CountryData";
 import React, {useEffect, useState} from "react";
 import styles from "./CountrySelectList.module.css";
-import WaffleComparison from "@/components/WaffleComparison";
-import ButterflyChartSong from "@/chartComponents/ButterflyChartSong";
-import Image from "next/image";
-import { Dropdown } from "@nextui-org/react";
-
+import JuxtaposedComparison from "@/components/JuxtaposedComparison";
 
 export default function CountrySelectList(){
     const [selectedCountries, setSelectedCountries]=useState([]);
+
     function handleSelectedCountries(country,isSelected){
         if(isSelected){
         setSelectedCountries([...selectedCountries,country]);}
@@ -36,10 +33,12 @@ export default function CountrySelectList(){
                         </input>
                     </div>)
                 }
-                <button onClick={()=>handleChooseAgain()} className={styles.backButton}>
+                <button onClick={()=>handleChooseAgain()} className={styles.backButton} disabled={selectedCountries.length!=2}>
                     Choose Again
                 </button>
-            </div><div className={styles.columnright}>
+            </div>
+            <div className={styles.columnright}>
+                {selectedCountries.length==2 &&<JuxtaposedComparison country1={selectedCountries[0]} country2={selectedCountries[1]}/>}
             </div>
         </div>
     )
