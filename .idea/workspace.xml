@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="add sidebar for selection">
-      <change afterPath="$PROJECT_DIR$/src/components/Comparison.js" afterDir="false" />
+    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Add comparison component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CountrySelectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountrySelectList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CountrySelectList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountrySelectList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/visualization.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/visualization.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/JuxtaposedComparison.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/JuxtaposedComparison.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682936065248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add comparison component">
+      <created>1682947950613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682947950613</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +163,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update with new navbar" />
     <MESSAGE value="add sidebar for selection" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sidebar for selection" />
+    <MESSAGE value="Add comparison component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add comparison component" />
   </component>
 </project>
