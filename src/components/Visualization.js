@@ -40,9 +40,6 @@ export default function Visualization({sorting, hover}) {
                     {router.query.order ?
                         <Link href={{query: null}} className={styles.backButton}>Back</Link> : null}
                 </div>
-                <div>
-
-                </div>
                 <div className={styles.waffleContainer}>
                     <div className={styles.wafflebox}>
                         {sortedCountries.map(country => (
