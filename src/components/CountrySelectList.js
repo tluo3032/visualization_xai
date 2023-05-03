@@ -38,7 +38,12 @@ export default function CountrySelectList(){
                 </button>
             </div>
             <div className={styles.columnright}>
+                <div>
+                    <h3>Select two countries to compare</h3>
+                </div>
+                <div className={styles.figure}>
                 {selectedCountries.length==2 &&<JuxtaposedComparison country1={selectedCountries[0]} country2={selectedCountries[1]}/>}
+                </div>
             </div>
         </div>
     )
