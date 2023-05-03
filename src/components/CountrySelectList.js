@@ -34,7 +34,7 @@ export default function CountrySelectList(){
                     </div>)
                 }
                 <button onClick={()=>handleChooseAgain()} className={styles.backButton} disabled={selectedCountries.length!=2}>
-                    Choose Again
+                    Reset
                 </button>
             </div>
             <div className={styles.columnright}>
