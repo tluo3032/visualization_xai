@@ -22,24 +22,6 @@ export default function BarChartCountry({sorting, country, hoverBlock, setHoverB
     );
 }
 
-/*
-{
-
-        backgroundColor:
-                hoverBlock === null || (d >= hoverBlock - hoverBlock % 20 && d < hoverBlock - hoverBlock % 20 + 20) ?
-                    d < country.healthy
-                        ? "#5A0C9C"
-                        : d < country.healthy + country.freedom
-                            ? "#FFE000"
-                            : d < country.healthy + country.freedom + country.gdp
-                                ? "#4AA221"
-                                : d < country.healthy + country.freedom + country.gdp + country.generosity
-                                    ? "#F47D21"
-                                    : d < country.healthy + country.freedom + country.gdp + country.generosity + country.corruption
-                                        ? "#BD3000" : "#DBAB5E"
-                    : "#C9C8CD"
- */
-
 function Bar({height, value, color, href, Base, hoverBlock, setHoverBlock, name}) {
     return <Base
         href={href}

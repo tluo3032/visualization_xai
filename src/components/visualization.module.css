@@ -56,9 +56,26 @@
   min-height: 85vh;
 }
 
-.title {
-  font-size: 20px;
-  margin-left: 50px;
+
+.leftSide {
+  float: left;
+  width: 200px;
+  height: auto;
+}
+
+.label {
+  width: 250px;
+  height: auto;
+  bottom: 0;
+}
+
+.instruction {
+  margin-left: 10px;
+  font-size: 15px;
   font-weight: bold;
-  font-style: italic;
+}
+
+.task {
+  margin-left: 10px;
+  font-size: 15px;
 }

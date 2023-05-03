@@ -24,20 +24,25 @@ export default function Visualization({sorting, hover}) {
                 <title>XAI visualization</title>
             </Head>
             <div>
-                <div>
-                    <XAInavbar/>
-                </div>
-                <div>
+                <div className={styles.leftSide}>
+                    <XAInavbar />
                     {hover
-                        ? <h1 className={styles.title}>Try move the mouse to different bar</h1>
+                        ? <p className={styles.instruction}>Try to hover a bar</p>
                         : (sorting && !router.query.order)
-                            ? <h1 className={styles.title}>Please click on a bar to sort</h1>
+                            ? <p className={styles.instruction}>Please click on a bar to sort</p>
                             : (sorting && router.query.order)
-                                ? <h1 className={styles.title}>This is the result sorted by {router.query.order}</h1>
+                                ? <p className={styles.instruction}>This is the result sorted by {router.query.order}</p>
                                 : null}
+                    <p className={styles.task}>Your task: blabla</p>
+                    <Image src={chart}
+                           className={styles.label}
+                           alt={"label"}/>
+                    {router.query.order ?
+                        <Link href={{query: null}} className={styles.backButton}>Back</Link> : null}
                 </div>
-                {router.query.order ?
-                    <Link href={{query: null}} className={styles.backButton}>Back</Link> : null}
+                <div>
+
+                </div>
                 <div className={styles.waffleContainer}>
                     <div className={styles.wafflebox}>
                         {sortedCountries.map(country => (
@@ -48,10 +53,7 @@ export default function Visualization({sorting, hover}) {
                             </div>
                         ))}
                     </div>
-                    <div>
-                        <Image src={chart}
-                               width={250}/>
-                    </div>
+
 
                 </div>
                 <footer className={styles.footer}>

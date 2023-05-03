@@ -8,8 +8,9 @@ const XAInavbar=()=>{
     const num = router.pathname.slice(-1);
     return(
        <div className="navbar">
+           <a className={styles.title}>Visualization {num}</a>
            <div className="dropdown">
-               <button className="dropbtn">Visualization Selection</button>
+               <button className="dropbtn">Visualization Selection 🔽</button>
                <div className="dropdown-content">
                    <Link href="/visualization1">Visualization 1</Link>
                    <Link href="/visualization2">Visualization 2</Link>
@@ -17,7 +18,6 @@ const XAInavbar=()=>{
                    <Link href="/visualization4">Visualization 4</Link>
                </div>
            </div>
-           <a>Visualization {num}</a>
        </div>
     )
 }
