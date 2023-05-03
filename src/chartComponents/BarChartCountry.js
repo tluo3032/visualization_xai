@@ -5,7 +5,8 @@ export default function BarChartCountry({sorting, country, hoverBlock, setHoverB
     const Base = sorting ? Link : "div";
 
     return (
-        <figure className={styles.barChart}>
+        <div>
+            <figure className={styles.barChart}>
             <Bar name="healthy" color="#5A0C9C" value={country.healthy} height={28} href={{pathname: "/visualization3", query: {order: "healthy"}}} Base={Base} hoverBlock={hoverBlock}
                  setHoverBlock={setHoverBlock}/>
             <Bar name="freedom" color="#FFE000" value={country.freedom} height={15} href={{pathname: "/visualization3", query: {order: "freedom"}}} Base={Base} hoverBlock={hoverBlock}
@@ -19,6 +20,14 @@ export default function BarChartCountry({sorting, country, hoverBlock, setHoverB
             <Bar name="social" color="#DBAB5E" value={country.social} height={9} href={{pathname: "/visualization3", query: {order: "social"}}} Base={Base} hoverBlock={hoverBlock}
                  setHoverBlock={setHoverBlock}/>
         </figure>
+            <div className={styles.label}>
+                <p className={styles.left}>0</p>
+                <p className={styles.mid}>100</p>
+                <p className={styles.right}>200</p>
+            </div>
+
+        </div>
+
     );
 }
 

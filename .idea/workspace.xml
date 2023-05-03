@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Add instructions">
-      <change beforePath="$PROJECT_DIR$/src/components/visualization.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/visualization.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +54,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -126,6 +133,7 @@
       <workItem from="1680689937223" duration="1450000" />
       <workItem from="1683016643645" duration="71000" />
       <workItem from="1683110373556" duration="1016000" />
+      <workItem from="1683139877061" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="Update with new navbar">
       <created>1678735099937</created>
