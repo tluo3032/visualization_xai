@@ -17,7 +17,16 @@
     float: left;
     width: 80%;
     display: flex;
+    flex-direction: column;
+    font-style: italic;
+    margin-left: 10px;
+}
+.figure{
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 .listItem{
     display: flex;
