@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Add instructions">
-      <change beforePath="$PROJECT_DIR$/src/pages/visualization4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/visualization4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RecentsManager">
