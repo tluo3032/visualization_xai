@@ -71,12 +71,15 @@
 }
 
 .instruction {
-  margin-left: 10px;
+  margin-left: 5px;
   font-size: 15px;
   font-weight: bold;
 }
 
 .task {
-  margin-left: 10px;
+  margin-left: 5px;
   font-size: 15px;
+  border-radius: 5px;
+  border: dodgerblue solid 3px;
+  box-shadow: 10px 5px 5px #a5b5ec;
 }
