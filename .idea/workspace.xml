@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Add instructions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/chartComponents/BarChartCountry.module.css" afterDir="false" />
-    </list>
+    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Add instructions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages" />
@@ -133,7 +129,7 @@
       <workItem from="1680689937223" duration="1450000" />
       <workItem from="1683016643645" duration="71000" />
       <workItem from="1683110373556" duration="1016000" />
-      <workItem from="1683139877061" duration="712000" />
+      <workItem from="1683139877061" duration="913000" />
     </task>
     <task id="LOCAL-00001" summary="Update with new navbar">
       <created>1678735099937</created>

@@ -31,7 +31,7 @@ export default function Visualization({sorting, hover}) {
                         : (sorting && !router.query.order)
                             ? <p className={styles.instruction}>Please click on a bar to sort</p>
                             : (sorting && router.query.order)
-                                ? <p className={styles.instruction}>This is the result sorted by {router.query.order}</p>
+                                ? <p className={styles.instruction}>This is the result sorted by {router.query.order} (From high to low)</p>
                                 : null}
                     <p className={styles.task}>Your task: here is the detailed description of the task that user should finish in this visualization</p>
                     <Image src={chart}
