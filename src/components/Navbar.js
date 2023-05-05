@@ -12,10 +12,18 @@ const XAInavbar=()=>{
             <div className="dropdown">
                 <div>
                 {num==="1" && <button className="dropbtn">Visualization 1<KeyboardArrowDownIcon/></button>}
-                {num==="2" && <button className="dropbtn">Visualization 2<KeyboardArrowDownIcon/></button>}
+                    {num==="2" &&
+                        <button className="dropbtn">Visualization 2<KeyboardArrowDownIcon/></button>
+                    }
                 {num==="3" && <button className="dropbtn">Visualization 3<KeyboardArrowDownIcon/></button>}
                 {num==="4" && <button className="dropbtn">Visualization 4<KeyboardArrowDownIcon/></button>}
                 </div>
+                {num==="2" && <div className="dropbtn">Try to hover a bar</div>
+                }
+                {num==="3" && <div className="dropbtn">Please click on a bar to sort</div>}
+                {num==="4" && <div className="dropbtn">Select two countries to compare</div>}
+
+
                 <div className="dropdown-content">
                     <Link href="/visualization1">Visualization 1</Link>
                     <Link href="/visualization2">Visualization 2</Link>

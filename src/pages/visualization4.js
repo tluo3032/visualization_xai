@@ -15,10 +15,7 @@ export default function Visualization4(){
                 <title>XAI visualization</title>
             </Head>
             <div>
-                <XAInavbar />
-                <div className={styles.leftSide}>
-                    <p className={styles.task}>Your task<br></br>blabla</p>
-                </div>
+                <XAInavbar/>
                 <div className={styles.body}>
                         <CountrySelectList/>
                 </div>

@@ -22,12 +22,15 @@
 .dropdown {
     float: left;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
     align-items: center;
     display: flex;
+    flex-direction: row;
     font-size: 20px;
     border: none;
     outline: none;
@@ -68,4 +71,8 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.info{
+    display: flex;
+    flex-direction: row;
 }

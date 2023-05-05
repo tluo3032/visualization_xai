@@ -28,9 +28,9 @@ export default function Visualization({sorting, hover}) {
                 <div className={styles.leftSide}>
                     <p className={styles.task}>Your task<br/>here is the detailed description of the task that user should finish in this visualization</p>
                     {hover
-                        ? <p className={styles.instruction}>Try to hover a bar</p>
+                        ? <p className={styles.instruction}></p>
                         : (sorting && !router.query.order)
-                            ? <p className={styles.instruction}>Please click on a bar to sort</p>
+                            ? <p className={styles.instruction}></p>
                             : (sorting && router.query.order)
                                 ? <p className={styles.instruction}>This is the result sorted by {router.query.order} (From high to low)</p>
                                 : null}
