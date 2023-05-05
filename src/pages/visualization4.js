@@ -14,16 +14,15 @@ export default function Visualization4(){
             <Head>
                 <title>XAI visualization</title>
             </Head>
-            <div className={styles.leftSide}>
+            <div>
                 <XAInavbar />
-                <p className={styles.task}>Your task: blabla</p>
+                <div className={styles.leftSide}>
+                    <p className={styles.task}>Your task<br></br>blabla</p>
+                </div>
+                <div className={styles.body}>
+                        <CountrySelectList/>
+                </div>
             </div>
-            <div className={styles.body}>
-                    <CountrySelectList/>
-            </div>
-            <footer className={styles.footer}>
-                <p>2023 XAI for Rank Visualization</p>
-            </footer>
         </div>
     );
 }

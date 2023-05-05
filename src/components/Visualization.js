@@ -23,9 +23,10 @@ export default function Visualization({sorting, hover}) {
             <Head>
                 <title>XAI visualization</title>
             </Head>
-            <div>
+            <div className={styles.container}>
+                <XAInavbar/>
                 <div className={styles.leftSide}>
-                    <XAInavbar />
+                    <p className={styles.task}>Your task<br/>here is the detailed description of the task that user should finish in this visualization</p>
                     {hover
                         ? <p className={styles.instruction}>Try to hover a bar</p>
                         : (sorting && !router.query.order)
@@ -33,7 +34,6 @@ export default function Visualization({sorting, hover}) {
                             : (sorting && router.query.order)
                                 ? <p className={styles.instruction}>This is the result sorted by {router.query.order} (From high to low)</p>
                                 : null}
-                    <p className={styles.task}>Your task: here is the detailed description of the task that user should finish in this visualization</p>
                     <Image src={chart}
                            className={styles.label}
                            alt={"label"}/>
@@ -50,12 +50,7 @@ export default function Visualization({sorting, hover}) {
                             </div>
                         ))}
                     </div>
-
-
                 </div>
-                <footer className={styles.footer}>
-                    <p>2023 XAI for Rank Visualization</p>
-                </footer>
             </div>
         </div>
     );

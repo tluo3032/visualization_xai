@@ -5,6 +5,9 @@
   align-items: center;
   margin: 0;
 }
+.container{
+  height: 100%;
+}
 .waffleContainer{
   display: flex;
   align-items: center;
@@ -56,12 +59,12 @@
   min-height: 85vh;
   display: flex;
 }
-
-
 .leftSide {
   float: left;
-  width: 200px;
-  height: auto;
+  width: 210px;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .label {
@@ -77,9 +80,12 @@
 }
 
 .task {
-  margin-left: 5px;
   font-size: 15px;
+  padding: 5px;
+  width: 200px;
   border-radius: 5px;
-  border: dodgerblue solid 3px;
-  box-shadow: 10px 5px 5px #a5b5ec;
+  background-color: rgba(30, 144, 255, 0.17);
+  /*border: dodgerblue solid 3px;*/
+  box-shadow: 2px 2px 2px #a5b5ec;
+  margin: 5px;
 }

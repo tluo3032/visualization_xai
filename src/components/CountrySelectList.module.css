@@ -1,12 +1,13 @@
 .body{
     width: 100%;
-    min-height: 80vh;
+    min-height: 90vh;
     display: flex;
+    margin-left: 10px;
 }
 .columnleft{
     float: left;
-    width: 20%;
-    height: 80vh;
+    width: 25%;
+    height: 85vh;
     background-color: rgba(178, 185, 189, 0.3);
     border-right-style: solid;
     border-right-width: thin;
