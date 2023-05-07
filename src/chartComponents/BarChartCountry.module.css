@@ -23,7 +23,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 .mid {
     display: inline-block;
     margin-top: -5px;

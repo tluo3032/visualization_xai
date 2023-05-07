@@ -25,7 +25,6 @@ export default function BarChartCountry({sorting, country, hoverBlock, setHoverB
                 <p className={styles.mid}>100</p>
                 <p className={styles.right}>200</p>
             </div>
-
         </div>
 
     );
