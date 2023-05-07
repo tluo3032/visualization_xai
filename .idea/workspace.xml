@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Add navbar, delete footer">
+    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Modify UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Visualization.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Visualization.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CountrySelectList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountrySelectList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/JuxtaposedComparison.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/JuxtaposedComparison.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/visualization4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/visualization4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +24,12 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="visual_4" />
+    <option name="BRANCH" value="Task_UI" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UI_task" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +52,12 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -128,6 +134,7 @@
       <workItem from="1683110373556" duration="1937000" />
       <workItem from="1683189969411" duration="6000" />
       <workItem from="1683139877061" duration="913000" />
+      <workItem from="1683470941252" duration="2807000" />
     </task>
     <task id="LOCAL-00001" summary="Update with new navbar">
       <created>1678735099937</created>
@@ -182,19 +189,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="visual_4" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
