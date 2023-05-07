@@ -77,11 +77,11 @@ export default function JuxtaposedComparison(props){
         return(
             <div>
                 <div className={styles.legend}>
-                <Bar color={"rgba(10,10,10,0.27)"} value={20} height={20}/>
+                <Bar color={"rgba(0,0,0,0.49)"} value={20} height={20}/>
                     {country1.country}
                 </div>
                 <div className={styles.legend}>
-                <BorderBarLegend color={"rgba(10,10,10,0.27)"} value={20} height={20}/>
+                <BorderBarLegend color={"rgba(0,0,0,0.49)"} value={20} height={20}/>
                     {country2.country}
                 </div>
             </div>

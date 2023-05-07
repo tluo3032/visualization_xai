@@ -37,7 +37,6 @@ export default function CountrySelectList(){
                     Reset
                 </button>
             </div>
-
             <div className={styles.columnright}>
                 <div>
                     <p className={styles.task}>Your task<br></br>blabla</p>
