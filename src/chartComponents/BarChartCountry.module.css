@@ -9,6 +9,7 @@
     padding: 0px;
     border-bottom: black solid 1px;
     border-left: black solid 1px;
+    transform: scale(0.85);
 }
 
 .data {
@@ -25,21 +26,20 @@
 }
 .mid {
     display: inline-block;
-    margin-top: -5px;
+    margin-top: -10px;
     margin-bottom: -15px;
     left: 50%;
 }
 .left {
     float: left;
     margin-top: 0px;
-    margin-bottom: -15px;
+    margin-bottom: 0px;
 }
 .right {
     margin-top: 0px;
-    margin-bottom: -15px;
+    margin-bottom: 0px;
     float: right;
 }
-
 
 
 .label {

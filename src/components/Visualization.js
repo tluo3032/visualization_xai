@@ -44,7 +44,7 @@ export default function Visualization({sorting, hover}) {
                     <div className={styles.wafflebox}>
                         {sortedCountries.map(country => (
                             <div key={country.country}>
-                                <div>{country.country}</div>
+                                <div className={styles.countryName}>{country.country}</div>
                                 <BarChartCountry sorting={sorting} country={country} hoverBlock={hoverBlock}
                                                  setHoverBlock={hover ? setHoverBlock : () => {}}/>
                             </div>
