@@ -34,18 +34,18 @@ export default function Visualization({sorting, hover}) {
                         </p>
                         : (sorting && !router.query.order)
                             ? <p className={styles.task}>
-                                answer the questions:<br/>
+                                Please answer the questions:<br/>
                                 Which country has the highest corruption?
                                 Which country has the lowest healthy life expectancy?
                             </p>
                             : (sorting && router.query.order)
                                 ?<div><p className={styles.task}>
-                                    Answer the questions:<br/>
+                                    Please answer the questions:<br/>
                                     Which country has the highest corruption?
                                     Which country has the lowest healthy life expectancy?
                                 </p>
                                     <p className={styles.instruction}>This is the result sorted by {router.query.order} (From high to low)</p></div>
-                                : <p className={styles.task}>Answer the questions:<br/>
+                                : <p className={styles.task}>Please answer the questions:<br/>
                                     Which country has the highest GDP per capita? Which country has the lowest generosity?</p>}
                     <Image src={chart}
                            className={styles.label}
