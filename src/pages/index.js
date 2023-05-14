@@ -1,13 +1,60 @@
-import { Inter } from 'next/font/google'
-import styles from "@/pages/index.module.css";
-import {countries} from "@/CountryData";
+import styles from './index.module.css';
 import React from "react";
-import Link from "next/link";
+import {testCountryData} from '../TestCountryData';
+import BarChartCountry from "@/chartComponents/BarChartCountry";
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+export default function Index() {
+    const countries=testCountryData;
+    const handleClickButton=()=>{
+        window.location.href='/visualization1';
+    }
   return (
-      <h1>Welcome</h1>
+      <div className={styles.body}>
+        <h1>Which country has higher happiness rank?</h1>
+          <div className={styles.chartcontainer}>
+            <div className={styles.group}>
+                <h2>Group 1</h2>
+                country A
+                <div className={styles.country}>
+                    <BarChartCountry sorting={false} country={testCountryData[0]} hoverBlock={null}
+                                     setHoverBlock={() => {}}/>
+                </div>
+                country B
+                <div className={styles.country}>
+                    <BarChartCountry sorting={false} country={testCountryData[1]} hoverBlock={null}
+                                     setHoverBlock={()=>{}}/>
+                </div>
+            </div>
+            <div className={styles.group}>
+                <h2>Group 2</h2>
+                country C
+                <div className={styles.country}>
+                    <BarChartCountry sorting={false} country={testCountryData[3]} hoverBlock={null}
+                                     setHoverBlock={() => {}}/>
+                </div>
+                country D
+                <div className={styles.country}>
+                    <BarChartCountry sorting={false} country={testCountryData[2]} hoverBlock={null}
+                                     setHoverBlock={()=>{}}/>
+                </div>
+            </div>
+            <div className={styles.group}>
+                <h2>Group 3</h2>
+                country E
+                <div className={styles.country}>
+                    <BarChartCountry sorting={false} country={testCountryData[4]} hoverBlock={null}
+                                     setHoverBlock={() => {}}/>
+                </div>
+                country F
+                <div className={styles.country}>
+                    <BarChartCountry sorting={false} country={testCountryData[5]} hoverBlock={null}
+                                     setHoverBlock={()=>{}}/>
+                </div>
+            </div>
+          </div>
+          <div>
+              <button onClick={()=>handleClickButton()} className={styles.backButton}>Next</button>
+          </div>
+      </div>
   );
 }

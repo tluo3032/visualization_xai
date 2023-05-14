@@ -93,3 +93,32 @@
 .nextButton:hover {
     background-color: #02a81d;
 }
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.backButton{
+    width:50px;
+    background-color: #a5b5ec;
+    border-style: hidden;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.chartcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.group{
+    padding: 30px;
+    margin: 30px;
+
+}
+.country{
+    padding-bottom: 35px;
+}
