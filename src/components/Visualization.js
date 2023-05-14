@@ -26,14 +26,27 @@ export default function Visualization({sorting, hover}) {
             <div className={styles.container}>
                 <XAInavbar/>
                 <div className={styles.leftSide}>
-                    <p className={styles.task}>Your task<br/>here is the detailed description of the task that user should finish in this visualization</p>
                     {hover
-                        ? <p className={styles.instruction}></p>
+                        ? <p className={styles.task}>
+                            Answer the questions:<br/>
+                            Which country has the highest social support?
+                            <br/>Which country has the lowest freedom?
+                        </p>
                         : (sorting && !router.query.order)
-                            ? <p className={styles.instruction}></p>
+                            ? <p className={styles.task}>
+                                answer the questions:<br/>
+                                Which country has the highest corruption?
+                                Which country has the lowest healthy life expectancy?
+                            </p>
                             : (sorting && router.query.order)
-                                ? <p className={styles.instruction}>This is the result sorted by {router.query.order} (From high to low)</p>
-                                : null}
+                                ?<div><p className={styles.task}>
+                                    Answer the questions:<br/>
+                                    Which country has the highest corruption?
+                                    Which country has the lowest healthy life expectancy?
+                                </p>
+                                    <p className={styles.instruction}>This is the result sorted by {router.query.order} (From high to low)</p></div>
+                                : <p className={styles.task}>Answer the questions:<br/>
+                                    Which country has the highest GDP per capita? Which country has the lowest generosity?</p>}
                     <Image src={chart}
                            className={styles.label}
                            alt={"label"}/>
