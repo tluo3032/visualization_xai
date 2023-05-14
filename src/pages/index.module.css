@@ -117,8 +117,12 @@
 .group{
     padding: 30px;
     margin: 30px;
-
 }
 .country{
     padding-bottom: 35px;
+}
+.annotation{
+    width: 250px;
+    height: auto;
+    margin-top: 50%;
 }
