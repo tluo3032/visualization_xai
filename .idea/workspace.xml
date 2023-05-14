@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Add legend of chart">
+    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Modify task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Visualization.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Visualization.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CountrySelectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountrySelectList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,7 @@
       <workItem from="1683470941252" duration="4388000" />
       <workItem from="1683635570399" duration="45000" />
       <workItem from="1684053405899" duration="4204000" />
-      <workItem from="1684066662239" duration="974000" />
+      <workItem from="1684066662239" duration="2069000" />
     </task>
     <task id="LOCAL-00001" summary="Update with new navbar">
       <created>1678735099937</created>
@@ -208,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684067235517</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Modify task">
+      <created>1684067910843</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684067910843</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +244,7 @@
     <MESSAGE value="Add knowledge test" />
     <MESSAGE value="Add legend" />
     <MESSAGE value="Add legend of chart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add legend of chart" />
+    <MESSAGE value="Modify task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify task" />
   </component>
 </project>
