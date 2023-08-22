@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="Modify task">
+    <list default="true" id="70eb922c-cb04-4408-9c09-6e9cf0e408fa" name="Changes" comment="delete notes on visualization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CountrySelectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountrySelectList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <recent name="D:\xai-web\visualization_xai\src\components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -97,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
@@ -136,7 +135,19 @@
       <workItem from="1683470941252" duration="4388000" />
       <workItem from="1683635570399" duration="45000" />
       <workItem from="1684053405899" duration="4204000" />
-      <workItem from="1684066662239" duration="2069000" />
+      <workItem from="1684066662239" duration="2179000" />
+      <workItem from="1684089385981" duration="7000" />
+      <workItem from="1684152688598" duration="26000" />
+      <workItem from="1684152726790" duration="602000" />
+      <workItem from="1684315606148" duration="4000" />
+      <workItem from="1684593841914" duration="530000" />
+      <workItem from="1684601048028" duration="28000" />
+      <workItem from="1685283514246" duration="1197000" />
+      <workItem from="1685446127524" duration="9000" />
+      <workItem from="1685451313782" duration="808000" />
+      <workItem from="1685629600088" duration="610000" />
+      <workItem from="1687174947751" duration="599000" />
+      <workItem from="1687950320457" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="Update with new navbar">
       <created>1678735099937</created>
@@ -215,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684067910843</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="delete notes on visualization">
+      <created>1684079874281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684079874281</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +263,7 @@
     <MESSAGE value="Add legend" />
     <MESSAGE value="Add legend of chart" />
     <MESSAGE value="Modify task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify task" />
+    <MESSAGE value="delete notes on visualization" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete notes on visualization" />
   </component>
 </project>
